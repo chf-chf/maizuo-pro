@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <script src="lodash.js"></script>
+    </head>
+
+    <body>
+        <script>
+            // console.log(_.chunk(['a','s','d','d','e'],2));//[["a", "s"],["d", "d"],["e"]]
+            // console.log(_.chunk(['a','s','d','d','e'],3));//[['a','s','d'],['d','e']]
+            var objects = [{ 'x': 1, 'y': 2 }, { 'x': 2, 'y': 1 }];
+ 
+            var newObjects = _.differenceWith(objects, [{ 'x': 1, 'y': 2 }], _.isEqual);
+            // console.log(objects);//[{ 'x': 1, 'y': 2 }, { 'x': 2, 'y': 1 }]
+            
+            // console.log(newObjects);//[{ 'x': 2, 'y': 1 }]
+            // console.log(_.drop([1, 2, 3]))//[2, 3]
+
+            var users = [
+                { 'user': 'barney',  'active': true },
+                { 'user': 'fred',    'active': false },
+                { 'user': 'pebbles', 'active': false }
+            ];
+            // console.log(1111);
+            // console.log(users);
+            // console.log(_.dropRightWhile(users, function(o) { return !o.active; }));//[{ 'user': 'barney',  'active': true }]
+            // console.log(_.dropRightWhile(users, { 'user': 'pebbles', 'active': false }));//[{ 'user': 'barney',  'active': true },{ 'user': 'fred',    'active': false }]
+            // console.log(_.dropRightWhile(users, ['active', false]));//[{ 'user': 'barney',  'active': true }]
+            // console.log(_.dropRightWhile(users, 'active'));//[{ 'user': 'barney',  'active': true },{ 'user': 'fred',    'active': false },{ 'user': 'pebbles', 'active': false }]
+
+            var users1 = [
+                {'user':'a', 'active':false},
+                {'user':'b', 'active':false},
+                {'user':'c', 'active':true}
+            ];
+            // console.log(_.dropWhile(users1, function(obj){ return !obj.active;}));//[{'user':'c', 'active':true}]
+            // console.log(_.dropWhile(users1,{'user':'a', 'active':false}));//[{'user':'b', 'active':false},{'user':'c', 'active':true}]
+            // console.log(_.dropWhile(users1,['active',false]));//[{'user':'c', 'active':true}]
+            // console.log(_.dropWhile(users1,'active'));//[{'user':'a', 'active':false},{'user':'b', 'active':false},{'user':'c', 'active':true}]
+            var users1_new = _.remove(users1,function(obj){ return obj.active;});
+            console.log(users1_new);
+
+
+
+
+        </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,111 @@
+#home{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+     background: #fff; 
+}
+.main{
+    width: 1210px;
+    margin: 0 auto;
+}
+#home .header{
+    height: 36px;
+    background: #fafafa;
+    border-bottom: 1px solid #dfdfdf;
+
+}
+#home .header .main .left-city{
+    float: left;
+}
+#home .header .main .left-city li{
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    color: #8c8c8c;
+    font-size: 12px;
+    position: relative;
+}
+#home .header .main .left-city .with-padding{
+    padding-right: 10px;
+}
+#home .header .main .left-city li.sep-lines{
+   /* display: block; */
+   width: 1px;
+   height: 12px;
+   background: #dfdfdf;
+   line-height: 36px;
+   margin-top:12px;
+}
+#home .header .main .left-city .change-city a{
+    color: #8c8c8c;
+    padding: 0 10px;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+}
+#home .header .main .left-city .change-city a:hover{
+    color: #73adc9;
+}
+#home .header .main .left-city .change-city .arrow-down{
+    display: inline-block;
+}
+
+/*右边导航  */
+#home .header .main .right-nav{
+    float: right;
+}
+#home .header .main .first-level>li{
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    color: #8c8c8c;
+    border-left: 1px solid #fafafa;
+    border-right: 1px solid #fafafa;
+    position: relative;
+}
+#home .header .main .first-level>li>a{
+    display: block;
+    padding: 0 10px;
+    height: 36px;
+    line-height: 36px;
+    color: #8c8c8c;
+}
+#home .header .main .first-level>li>a:hover{
+    color: #73adc9;
+}
+#home .header .main .first-level>li .sep-lines{
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: -1px;
+    width: 1px;
+    height: 12px;
+    margin-top: -6px;
+    border-left: 1px solid #dfdfdf;
+}
+.search-part{
+    min-width: 1210px;
+}
+.search-part .search-bar{
+    width: 1210px;
+    height: 60px;
+    margin: 30px auto 0;
+}
+.search-part .search-bar .logo-area{
+    float: left;
+}
+.search-part .search-bar .logo-area .logo{
+    display: block;
+    width: 226px;
+    height: 42px;
+}
+.search-part .search-bar .logo-area .logo .logo-img{
+    width: 154px;
+    height: 42px;
+}
+.search-part .search-bar .search-right{
+    float: right;
+}
