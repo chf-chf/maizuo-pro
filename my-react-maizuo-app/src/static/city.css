@@ -1,0 +1,95 @@
+#city{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #ebebeb;
+	overflow-y: scroll;
+}
+#city .location-top .location-city{
+	padding-left: 15px;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #ebebeb;
+    margin-top: -1px;
+}
+#city .location-top .city-title{
+	background: white;
+}
+#city .location-top .city-title ul{
+	min-width: 320px;
+}
+#city .location-top .city-title ul li{
+	width: 25%;
+    font-size: 16px;
+    line-height: 46px;
+    text-align: center;
+    display: inline-block;
+    color: #e2941a;
+}
+#city .hot-city .hot-city-txt{
+	padding-left: 15px;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #ebebeb;
+    margin-top: -1px;
+}
+#city .hot-city .hot-city-title{
+	background: white;
+}
+#city .hot-city .hot-city-title ul{
+	min-width: 320px;
+}
+#city .hot-city .hot-city-title ul li{
+	width: 25%;
+    font-size: 16px;
+    line-height: 46px;
+    text-align: center;
+    display: inline-block;
+    color: #838383;
+}
+#city .index-city .orderInletter{
+	padding-left: 15px;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #ebebeb;
+    margin-top: -1px;
+}
+#city .index-city .letters{
+	background: white;
+}
+#city .index-city .letters ul{
+	min-width: 320px;
+}
+#city .index-city .letters ul li{
+	width: 25%;
+    font-size: 16px;
+    line-height: 46px;
+    text-align: center;
+    display: inline-block;
+    color: #838383;
+    border-bottom: #ebebeb 1px solid;
+}
+#city .index-city .index-city-list .index-letter{
+	padding-left: 15px;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #ebebeb;
+    margin-top: -1px;
+}
+#city .index-city .index-city-list .index-detail{
+	background: white;
+}
+#city .index-city .index-city-list .index-detail ul{
+	min-width: 320px;
+}
+#city .index-city .index-city-list .index-detail ul li{
+	width: 25%;
+    font-size: 16px;
+    line-height: 46px;
+    text-align: center;
+    display: inline-block;
+    color: #838383;
+    border-bottom: #ebebeb 1px solid;
+}

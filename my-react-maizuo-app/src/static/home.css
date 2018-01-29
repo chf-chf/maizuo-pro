@@ -1,0 +1,134 @@
+#home{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #ebebeb;
+	overflow-y: scroll;
+}
+#home .banner{
+	width: 100%;
+}
+#home .banner img{
+	width: 100%;
+}
+#home .hotplaying{
+	padding-top: 18px;
+	background: #ebebeb;
+}
+#home .hotplaying li{
+	padding: 0 17px 17px 17px;
+	background: #ebebeb;
+}
+#home .hotplaying li .list-con img{
+	width: 100%;
+	height: 100%;
+}
+#home .hotplaying li .list-con .text{
+	height: 40px;
+	background: white;
+	position: relative;
+	padding-left: 16px;
+	padding-top: 13px;
+}
+#home .hotplaying li .list-con .text .name{
+	font-size: 12px;
+	line-height: 16px;
+	color: black;
+}
+#home .hotplaying li .list-con .text .count{
+	font-size: 8px;
+	line-height: 16px;
+	color: #9a9a9a;
+}
+#home .hotplaying li .list-con .text .grade{
+	font-size:18px;
+	color: #f78360;
+	position: absolute;
+	right: 15px;
+	top: 12px;
+}
+#home .hotplaying .hot-bottom{
+	width: 100%;
+	height: 60px;
+	overflow: hidden;
+}
+#home .hotplaying .hot-bottom .more-films{
+	width: 160px;
+	height: 30px;
+	border: 1px solid #aaa;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 30px;
+	color: #616161;
+	font-size: 12px;
+	margin: 10px auto 30px;
+}
+#home .coming-soon{
+	background: #ebebeb;
+}
+#home .coming-soon .coming-title{
+	text-align: center;
+	background-image: -webkit-gradient(linear,left top,right top,from(#555));
+	background-position: 50%;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    padding: 20px 0 30px;
+}
+#home .coming-soon .coming-title p{
+	width: 65px;
+	height: 20px;
+	border-radius: 5px;
+	background: #a7a7a7;
+	color: #eee;
+	font-size: 10px;
+	text-align: center;
+	line-height: 20px;
+	margin: 0 auto;
+}
+#home .coming-soon .coming-list{
+	padding-top: 18px;
+}
+#home .coming-soon .coming-list li{
+	padding: 0 17px 17px 17px;
+	background: #ebebeb;
+}
+#home .coming-soon .coming-list li .coming-con img{
+	width: 100%;
+	height: 100%;
+}
+#home .coming-soon .coming-list li .coming-con .coming-text{
+	height: 25px;
+	background: #f9f9f9;
+	position: relative;
+	padding-left: 16px;
+	padding-top: 13px;
+}
+#home .coming-soon .coming-list li .coming-con .coming-text p{
+	font-size:12px ;
+	line-height: 16px;
+	color: black;
+}
+#home .coming-soon .coming-list li .coming-con .coming-text p.coming-time{
+	color: #f78360;
+	position: absolute;
+	right: 15px;
+	top: 12px;
+}
+#home .coming-soon .coming-bottom{
+	width: 100%;
+	height: 60px;
+	overflow: hidden;
+}
+#home .coming-soon .coming-bottom .more-coming-films{
+	width: 160px;
+	height: 30px;
+	border: 1px solid #aaa;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 30px;
+	color: #616161;
+	font-size: 12px;
+	margin: 10px auto 30px;
+}

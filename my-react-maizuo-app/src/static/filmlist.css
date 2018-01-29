@@ -1,0 +1,103 @@
+.film-list{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #e1e1e1;
+	z-index: 10;
+	overflow: hidden;
+}
+.film-list .list-box{
+	padding-left: 15px;
+    padding-right: 15px;
+    background-color: #f9f9f9;
+    width: 100%;
+    position: absolute;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+.film-list .list-box .list-nav{
+	height: 46px;
+    margin: 0 auto;
+    border-bottom: solid #fe6e00 1px;
+}
+.film-list .list-box .list-nav li{
+	float: left;
+	width: 50%;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	font-size: 16px;
+	color: #6a6a6a;
+	position: relative;
+}
+.film-list .list-box .list-nav li.col{
+	color: #fe6e00;
+}
+.film-list .list-box .list-nav .active{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: #fe6e00;
+	left: 0;
+	bottom: 0;
+}
+.film-list .list-box .list li{
+	display: flex;
+	padding: 20px 0;
+	width: 100%;
+	border-bottom: dashed 1px #c9c9c9;
+}
+.film-list .list-box .list li .img{
+	width: 60px;
+}
+.film-list .list-box .list li .img img{
+	width: 60px;
+}
+.film-list .list-box .list li .film-intro{
+	width: 75%;
+	padding-left: 15px;
+}
+.film-list .list-box .list li .film-intro .film-arrow{
+	float: right;
+    line-height: 29px;
+    color: #c6c6c6;
+}
+.film-list .list-box .list li .film-intro .film-grade{
+	float: right;
+    font-size: 16px;
+    line-height: 32px;
+    color: #fc7103;
+}
+.film-list .list-box .list li .film-intro .film-name{
+	font-size: 16px;
+    line-height: 32px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.film-list .list-box .list li .film-intro .film-introduce{
+	height: 24px;
+    line-height: 24px;
+    color: #8e8e8e;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    display: inline-block;
+}
+.film-list .list-box .list li .film-intro .film-counts{
+	line-height: 24px;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+.film-list .list-box .list li .film-intro .film-counts span.film-color{
+	color: #8aa2bf;
+}
+.film-list .list-box .list li .film-intro .film-counts.film-soon-counts span.film-soon-color{
+	color: #ffb375;
+}

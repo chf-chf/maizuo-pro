@@ -1,0 +1,44 @@
+首页头部轮播图数据
+https://m.maizuo.com
+	/v4/api/billboard/home
+	?__t=1512370544386
+	
+正在播放
+https://m.maizuo.com
+	/v4/api/film/now-playing
+	?__t=1512370544391&page=1&count=5
+	
+即将上映
+https://m.maizuo.com
+	/v4/api/film/coming-soon
+	?__t=1512370544396&page=1&count=3
+	
+影片详情
+https://m.maizuo.com
+	/v4/api/film/3982
+	?__t=1512531366593
+	
+正在热映
+https://m.maizuo.com
+	/v4/api/film/now-playing
+	?page=1&count=7
+	
+城市
+https://m.maizuo.com
+	/v4/api/city
+	?__t=1512643865337
+	
+全部影院
+https://m.maizuo.com
+	/v4/api/cinema
+	?__t=1512651816157
+	
+对应影片的影院数据
+https://m.maizuo.com
+	/v4/api/film/4027/cinema
+	?__t=1512713798287
+	
+获取当前影院的数据
+https://m.maizuo.com
+	/v4/api/schedule
+	?__t=1512721122005&film=4027&cinema=5230

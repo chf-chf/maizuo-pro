@@ -1,0 +1,94 @@
+#hotfilm-detail{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #e1e1e1;
+	z-index: 10;
+	overflow-y: scroll;
+}
+#hotfilm-detail .film-img{
+	width: 100%;
+}
+#hotfilm-detail .film-img img{
+	width: 100%;
+}
+#hotfilm-detail .film-info{
+	width: 100%;
+}
+#hotfilm-detail .film-info .film-intro{
+	margin: 16px auto;
+    border-left: 16px solid RGB(228, 200, 156);
+    font-size: 16px;
+    padding-left: 4px;
+}
+#hotfilm-detail .film-info .film-director{
+	height: 18px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #333;
+}
+#hotfilm-detail .film-info .film-actors{
+	height: 18px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #333;
+}
+#hotfilm-detail .film-info .film-area{
+	height: 18px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #333;
+}
+#hotfilm-detail .film-info .film-type{
+	height: 18px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #333;
+}
+#hotfilm-detail .film-info .film-time{
+	height: 18px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #333;
+}
+#hotfilm-detail .film-info .film-synopsis{
+	text-overflow: ellipsis;
+    margin-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    color: #333;
+}
+#hotfilm-detail .film-info .buy{
+	position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+#hotfilm-detail .film-info .buy .buy-btn{
+	font-size: 14px;
+    min-width: 156px;
+    height: 36px;
+    line-height: 36px;
+    border: none;
+    background-color: #fe8233;
+    padding: 0;
+    margin: 0;
+    border-radius: 18px;
+    color: #fff;
+    -webkit-transition: 0.5s ease;
+    outline: none;
+}

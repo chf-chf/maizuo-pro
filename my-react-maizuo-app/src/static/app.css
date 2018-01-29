@@ -1,0 +1,131 @@
+.top-nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	line-height: 50px;
+	background: #282828;
+	z-index: 10000;
+}
+.top-nav .top-left{
+	float: left;
+	font-size: 16px;
+	line-height: 50px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.8);
+}
+.top-nav .top-left .nav-icon{
+	float: left;
+	width: 48px;
+	text-align: center;
+	border-right: 1px solid #222;
+	color: white;
+}
+.top-nav .top-left .nav-title{
+	float: left;
+	padding: 0 12px;
+	font-size: 14px;
+	color: #efefef;
+	max-width: 200px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.top-nav .top-right{
+	float: right;
+}
+.top-nav .top-right .city{
+	float: left;
+	font-size: 14px;
+	padding: 0 6px;
+	color: #999;
+}
+.top-nav .top-right .account{
+	float: left;
+	font-size: 16px;
+	width: 48px;
+	text-align: center;
+	color: #999;
+}
+.top-nav .top-right .account .icon-zhanghu{
+	font-size: 22px;
+}
+
+/*侧边导航栏*/
+.aside-wrap{
+	position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+	z-index: 10;
+}
+.aside-wrap .cover{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all ease 0.4s;
+    background: rgba(0,0,0,0.5);
+}
+.aside-wrap .aside-nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right:110px ;
+	background: #282828;
+	z-index: 10;
+}
+.aside-nav .nav-list li{
+	line-height: 50px;
+	color: #9a9a9a;
+	padding: 0 16px;
+	position: relative;
+}
+.aside-nav .nav-list li .icon-yousanjiao{
+	position: absolute;
+	right: 16px;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+.animated{
+		animation-duration: 1s;
+	}
+	
+/*.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}*/
