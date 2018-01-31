@@ -26,8 +26,8 @@ export default class List extends Component{
                                         <td>{item.sex}</td>
                                         <td>{item.age}</td>
                                         <td>
-                                            <button onClick={this.deleteAction.bind(this,index)}>删除</button>
-                                            <button>修改</button>
+                                            <button onClick={this.delAction.bind(this,index)}>删除</button>
+                                            <button onClick={this.modifyAction.bind(this,index)}>修改</button>
                                         </td>
                                     </tr>  
                                 )
@@ -39,11 +39,15 @@ export default class List extends Component{
             </div>
         )
     }
-    deleteAction(index){
-        this.props.handleDelete(index);
+    delAction(index){
+        this.props.handle(index,"delete");
+    }
+    modifyAction(index){
+        this.props.handle(index,"modify");
     }
 }
 
 List.proptypes = {
-    data:PropTypes.array.isRequired
+    data:PropTypes.array.isRequired,
+    handle:PropTypes.func.isRequired
 }

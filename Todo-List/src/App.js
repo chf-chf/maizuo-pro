@@ -8,15 +8,17 @@ export default class App extends Component{
     constructor(){
         super();
         this.state = {
-            infoArr:[]
+            infoArr:[],
+            modifyInfo:null,
+            modifyIndex:-1
         }
         
     }
     render(){
         return(
             <div id="root">
-                <Handle handleAdd={this.handleAdd.bind(this)}/>
-                <List handleDelete={this.handleDelete.bind(this)} data={this.state.infoArr}/>
+                <Handle modifyInfo={this.state.modifyInfo} handleModify={this.handleModify.bind(this)} handleAdd={this.handleAdd.bind(this)}/>
+                <List handle={this.handle.bind(this)} data={this.state.infoArr}/>
             </div>
         )
     }
@@ -30,7 +32,29 @@ export default class App extends Component{
         })
         
     }
-    handleDelete(index){
+    handle(index,flag){
+        if(flag == "delete"){
+            _.pullAt(this.state.infoArr,index);
+            this.setState({
+                infoArr:this.state.infoArr
+            })
+        }
+        else if(flag == "modify"){
+            let infoObj = this.state.infoArr[index];
+            this.setState({
+                modifyInfo:infoObj,
+                modifyIndex:index
+            })
+        }
         
+    }
+    handleModify(modifiedInfo){
+        console.log(modifiedInfo);
+        _.find(this.state.infoArr,this.state.modifyIndex,modifiedInfo);
+        this.setState({
+            infoArr:this.state.infoArr,
+            modifyInfo:null,
+            modifyIndex:-1
+        })
     }
 }
